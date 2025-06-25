@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5b87e;
+    color: #8d0606;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #ebd0a4;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 87, 34, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #8d0606;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #8d0606;
+    text-align: left;
+}
+
+th {
+    background-color: #e5b87e;
+}
+
+tr:hover {
+    background-color: #e5b87e;
+}
+
+.btn-excluir {
+    padding: 6px 12px;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-excluir:hover {
+    background-color: #c62828;
+}
+
+.voltar-btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #424242;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.voltar-btn:hover {
+    background-color: #333;
+}
+
+.btn-editar {
+    padding: 6px 12px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-editar:hover {
+    background-color: #1976d2;
+}
